@@ -53,7 +53,7 @@ In case of files uploaded through FTP Load Balancer, the uploaded files will be 
 -	LogPath * – Log file path (Default: C:\Program Files (x86)\SynchronizeFolders)
 ### Note: 
 - *- Mandatory configurations and cannot be blank
-- ^- Modifications will reflect immediately. For others re-running setup.ps1 or specific module .ps1 is required
+- ^- Modifications will not reflect immediately re-running setup.ps1 or specific module .ps1 is required
 
 ### Commands executed
 - Robocopy $path1 $path2 /TEE /E /S /XC /MT:8 /MON:[MonitorNoOfChanges] /MOT:[MonitorWaitMin] /R:[RetryCount] /W:[WaitBtwnRetrySec] /LOG+:[LogFilePath]
