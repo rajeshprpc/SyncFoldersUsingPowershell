@@ -1,0 +1,17 @@
+<root>
+    <Mode>GMAIL</Mode>
+    <smtp>
+        <smtpserver></smtpserver>
+        <port></port>
+    </smtp>
+    <gmail>
+        <smtp>smtp.gmail.com</smtp>
+        <port>587</port>
+        <username></username>
+        <password></password>
+    </gmail>
+    <FromEmailId></FromEmailId>
+    <ToEmailId></ToEmailId>
+    <CCEmailId></CCEmailId>
+    <Subject>Copying files status #STATUS# at #EXECUTION_DATE#</Subject>
+</root>

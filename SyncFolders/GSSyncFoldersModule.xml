@@ -1,0 +1,14 @@
+<root>
+    <AppName>SynchronizeFolders</AppName>
+    <Path1>C:\Path1</Path1>
+    <Path2>C:\Path2</Path2>
+    <InstallationPath>C:\Program Files (x86)\SynchronizeFolders\</InstallationPath>    
+    <ValidateSchedulerInterval>15</ValidateSchedulerInterval>
+    <RetryCount>1000</RetryCount>
+    <WaitBtwnRetrySec>30</WaitBtwnRetrySec>
+    <MonitorNoOfChanges>1</MonitorNoOfChanges>
+    <MonitorWaitMin>1</MonitorWaitMin>
+    <SchedulerNamePath1>SynchronizePath1</SchedulerNamePath1>
+    <SchedulerNamePath2>SynchronizePath2</SchedulerNamePath2>
+    <ValidateSchedulerName>ValidateSynchronization</ValidateSchedulerName>
+</root>
